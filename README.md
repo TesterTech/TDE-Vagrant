@@ -6,7 +6,7 @@ We deliberately chose a Linux based OS for this because it's my conviction that 
 ## Prerequisites (Linux)
 - Oracle VirtualBox https://www.virtualbox.org/
 - Vagrant https://www.vagrantup.com/downloads.html
-Note: in the youtube video I used Libvirt so you also need Libvirtd, QEMU-KVM, Vagrant Libvirt plugin! It's also possible to use the 'provider virtualbox' but this base image (peru/ubuntu-18.04-desktop-amd64) is not compatible with that virt provider.  
+- Note: in the youtube video I used Libvirt as a virtualization provider if you want to provision without Oracle VirtualBox you can also do so you but you need Libvirtd, QEMU-KVM and Vagrant Libvirt plugin!
 
 ## Start the Vagrant Virtual Machine
 - Clone this repo
